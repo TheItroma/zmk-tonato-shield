@@ -3,7 +3,7 @@ id: tonato
 name: Tonato
 type: shield
 url: https://github.com/urob/zmk-config
-requires: [pro_micro]
+requires: [nice_nano_v2]
 features:
   - keys
 siblings:
