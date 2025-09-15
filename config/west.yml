@@ -2,15 +2,15 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: tonato_module_base
-      url-base: https://github.com/TheItroma/zmk-tonato-shield.git
+    - name: theitroma
+      url-base: https://github.com/TheItroma
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
     - name: tonato_module
-      remote: tonato_module_base
+      remote: theitroma
       revision: main
   self:
     path: config
