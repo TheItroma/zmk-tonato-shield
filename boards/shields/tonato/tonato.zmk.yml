@@ -1,0 +1,11 @@
+file_format: "1"
+id: tonato
+name: Tonato
+type: shield
+url: https://github.com/urob/zmk-config
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - tonato_left
+  - tonato_right
